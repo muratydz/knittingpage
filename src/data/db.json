@@ -2,33 +2,94 @@
     "knitting": [
         {
             "id": 1,
-            "img": "./src/img/knitting1.jpg",
+            "img": "./src/img/knitting-1.jpg",
             "header": "başlık 1",
             "description": "ürün hakkındaki genel bilgiler"
         },
         {
             "id": 2,
-            "img": "./src/img/knitting1.jpg",
+            "img": "./src/img/knitting-2.jpg",
             "header": "başlık 2",
             "description": "ürün hakkındaki genel bilgiler"
         },
         {
             "id": 3,
-            "img": "./src/img/knitting1.jpg",
+            "img": "./src/img/knitting-3.jpg",
             "header": "başlık 3",
             "description": "ürün hakkındaki genel bilgiler"
         },
         {
             "id": 4,
-            "img": "./src/img/knitting1.jpg",
+            "img": "./src/img/knitting-4.jpg",
             "header": "başlık 4",
             "description": "ürün hakkındaki genel bilgiler"
         },
         {
             "id": 5,
-            "img": "./src/img/knitting1.jpg",
+            "img": "./src/img/knitting-5.jpg",
+            "header": "başlık 5",
+            "description": "ürün hakkındaki genel bilgiler"
+        },
+        {
+            "id": 6,
+            "img": "./src/img/knitting-1.jpg",
+            "header": "başlık 1",
+            "description": "ürün hakkındaki genel bilgiler"
+        },
+        {
+            "id": 7,
+            "img": "./src/img/knitting-2.jpg",
+            "header": "başlık 2",
+            "description": "ürün hakkındaki genel bilgiler"
+        },
+        {
+            "id": 8,
+            "img": "./src/img/knitting-3.jpg",
+            "header": "başlık 3",
+            "description": "ürün hakkındaki genel bilgiler"
+        },
+        {
+            "id": 9,
+            "img": "./src/img/knitting-4.jpg",
+            "header": "başlık 4",
+            "description": "ürün hakkındaki genel bilgiler"
+        },
+        {
+            "id": 10,
+            "img": "./src/img/knitting-5.jpg",
+            "header": "başlık 5",
+            "description": "ürün hakkındaki genel bilgiler"
+        },
+        {
+            "id": 11,
+            "img": "./src/img/knitting-1.jpg",
+            "header": "başlık 1",
+            "description": "ürün hakkındaki genel bilgiler"
+        },
+        {
+            "id": 12,
+            "img": "./src/img/knitting-2.jpg",
+            "header": "başlık 2",
+            "description": "ürün hakkındaki genel bilgiler"
+        },
+        {
+            "id": 13,
+            "img": "./src/img/knitting-3.jpg",
+            "header": "başlık 3",
+            "description": "ürün hakkındaki genel bilgiler"
+        },
+        {
+            "id": 14,
+            "img": "./src/img/knitting-4.jpg",
+            "header": "başlık 4",
+            "description": "ürün hakkındaki genel bilgiler"
+        },
+        {
+            "id": 15,
+            "img": "./src/img/knitting-5.jpg",
             "header": "başlık 5",
             "description": "ürün hakkındaki genel bilgiler"
         }
+        
     ]
 }

@@ -34,6 +34,7 @@
 
         &:hover {
             background-color: #3a6a91;
+            cursor: pointer;
         }
 
         &-body {
@@ -62,21 +63,25 @@
 
 }
 
-.main-knitting a {
-    display: block;
-    text-decoration: none;
-    color: black;
-    border: 1px solid none;
-    padding: 10px 15px;
-    background-color: #2A4D69;
-    color: white;
-    border-radius: 10px;
-    grid-column-start: 2;
-    width: 100px;
-    justify-self: end;
-    margin-right: 25px;
-    text-align: center;
-    &:hover {
-        background-color: #3a6a91;
+.main-knitting {
+    margin-top: 8rem;
+    a {
+        display: block;
+        text-decoration: none;
+        color: black;
+        border: 1px solid none;
+        padding: 10px 15px;
+        background-color: #2A4D69;
+        color: white;
+        border-radius: 10px;
+        grid-column-start: 2;
+        width: 100px;
+        justify-self: end;
+        margin-right: 25px;
+        text-align: center;
+
+        &:hover {
+            background-color: #3a6a91;
+        }
     }
 }

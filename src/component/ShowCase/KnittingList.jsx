@@ -22,7 +22,7 @@ function Knitting() {
       </div>
       <div className='knitting-list'>
         <div className='knitting-header'>
-          {knitting && knitting.slice(1, 2).map((item) => (
+          {knitting && knitting.slice(0, 1).map((item) => (
             <div className='card'>
               <div className="card-header">
                 <img src={item.img} alt="img1" />
@@ -35,7 +35,7 @@ function Knitting() {
           ))}
         </div>
         <div className='knitting-body'>
-          {knitting && knitting.slice(0, 4).map((item) => (
+          {knitting && knitting.slice(1, 5).map((item) => (
             <div className='card' key={item.id}>
               <div className='card-header'>
                 <img src={item.img} alt={item.header} />
@@ -46,10 +46,10 @@ function Knitting() {
               </div>
             </div>
           ))}
+          <Link to={"/product"}>All Product</Link>
         </div>
-        <Link to={"/product"}>All Product</Link>
       </div>
-      
+
     </div>
   )
 }
