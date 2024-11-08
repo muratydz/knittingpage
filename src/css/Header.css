@@ -1,0 +1,25 @@
+.header {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  height: 90vh;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.header-main {
+  padding: 0 25px;
+  flex: 1;
+  border: 1px solid none;
+  border-radius: 5px;
+}
+.header-main h2 {
+  font-size: 4rem;
+  font-family: "Ponnala", sans-serif;
+  line-height: 4.5rem;
+}
+.header-main p {
+  font-size: 1.1rem;
+  font-family: "Ponnala", sans-serif;
+}
+
+/*# sourceMappingURL=Header.css.map */

@@ -1,0 +1,7 @@
+.home-page{
+    background-image: url("../../img/backgraund.jpeg");
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
