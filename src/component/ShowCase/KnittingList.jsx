@@ -2,7 +2,7 @@ import React, { useEffect } from 'react'
 import "../../css/KnittingList.css"
 import { useDispatch, useSelector } from 'react-redux'
 import { getAllKnitting } from '../../redux/slices/apiSlicer';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
 function Knitting() {
   const dispatch = useDispatch();
@@ -13,7 +13,7 @@ function Knitting() {
     dispatch(getAllKnitting());
   }, [])
 
-
+  const navigate = useNavigate();
 
   return (
     <div className='container main-knitting'>
@@ -23,7 +23,7 @@ function Knitting() {
       <div className='knitting-list'>
         <div className='knitting-header'>
           {knitting && knitting.slice(0, 1).map((item) => (
-            <div className='card'>
+            <div className='card' key={item.id} onClick={() => navigate("/product-about/" + item.id)}>
               <div className="card-header">
                 <img src={item.img} alt="img1" />
               </div>
@@ -36,7 +36,7 @@ function Knitting() {
         </div>
         <div className='knitting-body'>
           {knitting && knitting.slice(1, 5).map((item) => (
-            <div className='card' key={item.id}>
+            <div className='card' key={item.id} onClick={() => navigate("/product-about/" + item.id)}>
               <div className='card-header'>
                 <img src={item.img} alt={item.header} />
               </div>
