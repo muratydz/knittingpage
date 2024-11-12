@@ -1,0 +1,16 @@
+.product-about {
+  margin-top: 3rem;
+}
+.product-about .product-main {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.product-about .product-details {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.product-about .product-details .product-slider {
+  width: 45%;
+}
+
+/*# sourceMappingURL=ProductAbout.css.map */

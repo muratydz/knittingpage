@@ -1,0 +1,17 @@
+.product-about {
+    margin-top: 3rem;
+
+    .product-main {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .product-details {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+
+        .product-slider {
+            width: 45%;
+        }
+    }
+}
