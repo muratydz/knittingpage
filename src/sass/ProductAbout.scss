@@ -1,17 +1,57 @@
 .product-about {
-    margin-top: 3rem;
+    margin-top: 4rem;
 
     .product-main {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+        height: 70vh;
+
+        h2 {
+            margin-top: 0;
+            font-size: 2.6rem;
+        }
+
+        p {
+            padding-right: 150px;
+            font-size: 2rem;
+            line-height: 3rem;
+        }
+
+        img {
+            height: 700px;
+            width: 600px;
+            object-fit: cover;
+
+        }
     }
 
     .product-details {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        margin-top: 4rem;
 
-        .product-slider {
-            width: 45%;
+        h2 {
+            font-size: 2.6rem;
+            margin: 0;
         }
+
+        .product-contant {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+
+            p {
+                font-size: 2rem;
+                line-height: 3rem;
+                width: 600px;
+            }
+
+            .product-slider {
+                img {
+                    height: 700px;
+                    width: 600px;
+                    object-fit: cover;
+                }
+
+            }
+        }
+
     }
 }

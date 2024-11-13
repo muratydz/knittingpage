@@ -42,7 +42,7 @@ function Knitting() {
               </div>
               <div className='card-body'>
                 <h2>{item.header}</h2>
-                <p>{item.description}</p>
+                <p>{item.description.substring(0,25) + "..."}</p>
               </div>
             </div>
           ))}

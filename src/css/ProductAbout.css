@@ -1,16 +1,45 @@
 .product-about {
-  margin-top: 3rem;
+  margin-top: 4rem;
 }
 .product-about .product-main {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  height: 70vh;
+}
+.product-about .product-main h2 {
+  margin-top: 0;
+  font-size: 2.6rem;
+}
+.product-about .product-main p {
+  padding-right: 150px;
+  font-size: 2rem;
+  line-height: 3rem;
+}
+.product-about .product-main img {
+  height: 700px;
+  width: 600px;
+  object-fit: cover;
 }
 .product-about .product-details {
+  margin-top: 4rem;
+}
+.product-about .product-details h2 {
+  font-size: 2.6rem;
+  margin: 0;
+}
+.product-about .product-details .product-contant {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 }
-.product-about .product-details .product-slider {
-  width: 45%;
+.product-about .product-details .product-contant p {
+  font-size: 2rem;
+  line-height: 3rem;
+  width: 600px;
+}
+.product-about .product-details .product-contant .product-slider img {
+  height: 700px;
+  width: 600px;
+  object-fit: cover;
 }
 
 /*# sourceMappingURL=ProductAbout.css.map */
